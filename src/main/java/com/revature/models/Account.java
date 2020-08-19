@@ -12,7 +12,12 @@ public class Account implements Serializable  {
 	private double account_balance;
 	private String account_status;
 	private User user; // foregn key
-	public Account() {
+	//added
+
+	public Account() 
+	//added
+	
+	{
 		
 		super();
 		// TODO Auto-generated constructor stub

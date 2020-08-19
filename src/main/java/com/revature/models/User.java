@@ -10,6 +10,7 @@ public class User implements Serializable{
 	private String first_name;
 	private String last_name;
 	private String zip;
+	//new
 	
 	public User() {
 		super();
