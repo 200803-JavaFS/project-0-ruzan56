@@ -312,30 +312,43 @@ private void login() {
 		String choice 	=scan.next();
 		System.out.println("your choice is" + choice);
 		System.out.println();
+
+
+switch(choice) {
+
+case "1":
+	logInUser(userType, logIn);
+	break;
+case "2":
+	userType = "employee";
+	logInEmployee(userType, logIn);
+	break;
+case "3":
+	userType = "admin";
+	logInAdmin(userType, logIn);
+	break;
+case "4":
+	System.out.println("Thank you for trusting us your money. Bye bye.");
+	System.exit(0);
+	break;
+default:
+	System.out.println("You have entered an incorrect value. Please try again. ");
+	System.out.println("\n**************************************************************\n");
+	login();
+	break;	
+}
+
+private void loginUser(User logIn) {
+	System.out.println("Please enter your user name");
+	String user_name 	=scan.next();
+	System.out.println("Please enter your password");
+	String password=scan.next();
+	
+
+	
 }
 }
-//		
-//case "1":
-//	userType = "client";
-//	logInUser(userType, logIn);
-//	break;
-//case "2":
-//	userType = "employee";
-//	logInEmployee(userType, logIn);
-//	break;
-//case "3":
-//	userType = "admin";
-//	logInAdmin(userType, logIn);
-//	break;
-//case "4":
-//	System.out.println("Thank you for trusting us your money. Bye bye.");
-//	System.exit(0);
-//	break;
-//default:
-//	System.out.println("You have entered an incorrect value. Please try again. ");
-//	System.out.println("\n**************************************************************\n");
-//	logInAccount();
-//	break;		
+
 //}
 ////
 ////			
