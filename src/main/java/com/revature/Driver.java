@@ -17,12 +17,13 @@ public class Driver {
 //			System.out.println(h);
 //		}
 //		
-//		Home h = new Home("Malibu home", "Stark Mansion", "Malibu", "CA", null);
+	User us = new User("ruzan", "55555", "ruza", "yolchyan", null);
 //		
 //		System.out.println(dao.addHome(h));
 		
 		ConsoleUtil cons = new ConsoleUtil();
 		cons.beginApp();
+	
 		
 	}
 

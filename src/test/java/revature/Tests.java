@@ -35,7 +35,7 @@ public class Tests {
 		user= new User("Customer","testFirst", "testLast","testPhone", "testUsername");
 		//us.insertUser(user);
 		//already inserted
-		account = new Account(2944,25.6,0, "valid", user);
+		account = new Account(6779,23.5,876868680, "valid", user);
 		as.addAccount(account);
 //		/public Account(int account_number, double account_balance, String account_status)
 		//as.insertAccount(account2);
